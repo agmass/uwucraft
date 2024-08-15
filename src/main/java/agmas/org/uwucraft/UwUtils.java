@@ -42,6 +42,36 @@ public class UwUtils {
                 .replaceAll("fuck", "fwick")
                 .replaceAll("shit", "*poops*")
                 .replaceAll("wtf", "whawt the fwick")
+                .replaceAll("wth", "whawt the hecc");
+    }
+
+    public static String maximumUwuify(String text) {
+        return text
+                .replaceAll("\\.", "~ ")
+                .replaceAll(",", "~ ")
+                .replaceAll("-", "~ ")
+                .replaceAll("\\?", "~ ")
+                .replaceAll("hurt", "hUWUrt")
+                .replaceAll("kill", "hwuwrt")
+                .replaceAll("you", "you<3")
+                .replaceAll("r", "w")
+                .replaceAll("l", "w")
+                .replaceAll("uwu", "UWU")
+                .replaceAll("owo", "OWO")
+                .replaceAll(";-;", "(-_-)")
+                .replaceAll("-_-", "(-_-)")
+                .replaceAll(":o", "※(^o^)/※")
+                .replaceAll(":0", "※(^o^)/※")
+                .replaceAll(":\\)", "(｡◕‿‿◕｡)")
+                .replaceAll(":>", "(｡◕‿‿◕｡)")
+                .replaceAll(":\\(", "(︶︹︶)")
+                .replaceAll(":<", "(︶︹︶)")
+                .replaceAll(":3", "(・3・)")
+                .replaceAll(":D", "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧")
+                .replaceAll("\\._\\.", "(っ´ω`c)")
+                .replaceAll("fuck", "fwick")
+                .replaceAll("shit", "*poops*")
+                .replaceAll("wtf", "whawt the fwick")
                 .replaceAll("wth", "whawt the hecc") + getRandomUwUSuffix();
     }
 
@@ -61,7 +91,6 @@ public class UwUtils {
                 "~ *giggles*",
                 "~ *hugs you*",
         };
-        return "~ >-<";
-        //return uwuSuffixes[new Random().nextInt(0,uwuSuffixes.length-1)];
+        return uwuSuffixes[new Random().nextInt(0,uwuSuffixes.length-1)];
     }
 }
