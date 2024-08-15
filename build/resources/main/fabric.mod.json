@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "uwucraft",
+  "version": "1.0-SNAPSHOT",
+  "name": "uwucraft",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/agmas/uwucraft"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/uwucraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "agmas.org.uwucraft.Uwucraft"
+    ]
+  },
+  "mixins": [
+    "mixin.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.1",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
