@@ -16,7 +16,7 @@ import java.util.Random;
 public class UwUtils {
 
     public static String uwuify(String text) {
-        return text
+        return text.toLowerCase()
                 .replaceAll("\\.", "~ ")
                 .replaceAll(",", "~ ")
                 .replaceAll("-", "~ ")
@@ -46,7 +46,7 @@ public class UwUtils {
     }
 
     public static String maximumUwuify(String text) {
-        return text
+        return text.toLowerCase()
                 .replaceAll("\\.", "~ ")
                 .replaceAll(",", "~ ")
                 .replaceAll("-", "~ ")

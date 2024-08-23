@@ -29,4 +29,6 @@ public class TablistEntryMixin {
             if (displayName.getLiteralString() != null)
                 this.displayName = Text.of(UwUtils.maximumUwuify(displayName.getLiteralString()));
     }
+
+
 }
